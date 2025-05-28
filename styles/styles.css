@@ -1,0 +1,51 @@
+body {
+    background: blue;
+    color: white;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    margin: 25px;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    grid-gap: 25px;
+    font-size: 2rem;
+}
+
+section {
+    display: grid;
+    grid-template-columns: 55% 1fr;
+    gap: 25px;
+}
+
+.quickContainer {
+    display: grid;
+    grid-template-rows: 35% 1fr;
+    gap: 25px;
+}
+
+.box {
+    background: purple;
+    min-width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+}
+
+footer {
+    display: flex;
+    grid-gap: 5px;
+}
+
+article {
+    min-height: 525px;
+}
+
+nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 25px;
+}
+
+.thiccBoi {
+    min-height: 200px;
+}
